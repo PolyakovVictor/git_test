@@ -14,6 +14,7 @@ const App: React.FC = () => {
         <div>
             <input value={value} onChange={e => setValue(e.target.value)} />
             <button onClick={addTodo}>Add</button>
+            <button onClick={addTodo}>Change</button>
         </div>
     </div>
 }
